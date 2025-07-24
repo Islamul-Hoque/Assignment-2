@@ -95,3 +95,75 @@ nav ul li a{
     display: block;
     max-width: 100%;
 }
+
+/* Our Plants */
+.Plants{
+    max-width: 1280px;
+    padding:1rem 2rem 2rem;
+}
+
+.common-header{
+    text-align: center;
+}
+.common-header h2{
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+    font-family: "Noto Serif", serif;
+}
+
+.common-header h2 span{
+    color: #E95A08;
+    font-family: "Noto Serif", serif;
+}
+.common-header p{
+    max-width: 72vw;
+    margin: 0 auto 1.5rem;
+    color: #6C6C6C;
+}
+.card-container{
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card h3{
+    color: #111111;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 1rem 0 0.2rem;
+}
+.card span{
+    color: #111111;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    display: inline-block;
+    margin: 0 0 0.5rem;
+}
+
+.card button{
+    border: none;
+    background-color: #B8570E;
+    color: #ffffff;
+    padding: 1rem ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
