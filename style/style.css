@@ -207,5 +207,74 @@ nav ul li a{
     line-height: 1.4rem;
 }
 
+/* Latest Deals */
+.Latest-Deals{
+    padding: 2rem;
+    max-width: 1280px;
+}
+
+.Latest-Deals-offer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.item-3{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.offer-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-description {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%) ;
+    text-align: center;
+    width: 80%;
+}
+.offer-content a{
+    color: white;
+}
+.offer-content img{
+    display: block;
+    width: 100%;
+
+    filter: brightness(0.5);
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.item-1 h3, .item-2 h3{
+    font-weight: 800;
+    font-size: 1.3rem;
+    font-family: "Noto Serif", serif;
+}
+.item-1 a, .item-2 a{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.item-3 h3{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: "Noto Serif", serif;
+}
+.item-3 a{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 
 
