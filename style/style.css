@@ -165,5 +165,47 @@ nav ul li a{
     cursor: pointer;
 }
 
+/* Plants-Lover */
+.Plants-Lover{
+    max-width: 1280px;
+    padding:6rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.Plants-Lover-left{
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.Plants-Lover-left img{
+    display: block;
+    width: 30vw;
+}
+
+.Plants-Lover .mark{
+    position: absolute;
+    width: 12rem;
+    right: -4.5rem;
+    top: -5rem;
+}
+
+.Plants-Lover-right h2{
+    font-size: 2.5rem;
+    font-family: "Noto Serif", serif;
+}
+.Plants-Lover-right ul{
+    list-style: outside;
+    margin:0 1.8rem;
+}
+.Plants-Lover-right ul li{
+    color: #6C6C6C;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    line-height: 1.4rem;
+}
+
 
 
