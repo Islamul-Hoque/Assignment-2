@@ -342,7 +342,6 @@ nav ul li a{
     font-weight: 600;
 }
 
-
 /* Footer */
 .footer-container{
     max-width: 1280px;
@@ -390,4 +389,161 @@ footer ul li a{
     margin-top: 0.5rem;
 }
 
+/* Small Devices */
+@media screen and (max-width: 576px){
+    /* Navbar */
+    header{
+        padding: 0.9rem;
+    }
+    
+    nav{
+        margin: 0 0 1rem;
+        /* background-color: rgb(186, 204, 173); */
+    }
+    
+    nav img{
+        max-width: 4rem;
+    }
+    
+    nav ul{
+        gap: 0rem;
+    }
+    .Home,.Shop, .About-us{
+        display: none;
+    }
+    
+    
+    /* Banner */
+    .banner{
+        flex-wrap: wrap-reverse;
+        margin: 1rem 0;
+    }
+    
+    .banner-content{
+        width: 100%;
+    }
+    .banner h1{
+        font-size: 2.1rem;
+        margin-bottom: 0.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .banner p{
+        font-size: 1rem;
+        line-height: normal;
+        max-width: 100vw;
+    }
+    
+    /* Our Plants */
+    .Plants{
+        padding:1rem 0.8rem 3rem;
+    }
+    
+    .common-header h2{
+        margin-bottom: 0.4rem;
+        font-size: 2.2rem;
+    }
+    
+    .common-header p{
+        max-width: 80vw;
+        margin: 0 auto 1.5rem;
+    }
+    
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    /* Plants-Lover */
+    .Plants-Lover{
+        flex-wrap: wrap;
+        padding:1rem 0.8rem;
+        gap: 1rem;
+    }
+    
+    .Plants-Lover-left img{
+        width: 100%;
+    }
+    
+    .Plants-Lover .mark{
+        display: none;
+    }
+    
+    .Plants-Lover-right h2{
+        font-size: 2.4rem;
+    }
+    
+    .Plants-Lover-right ul li{
+        font-size: 1.1rem;
+        margin: 0.5rem 0 0.9rem;
+        line-height:normal;
+    }
+    
+    /* Latest Deals */
+    .Latest-Deals{
+        padding: 1rem 0.8rem;
+        margin: 0.5rem 0 2rem;
+    }
+    
+    .Latest-Deals-offer{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    
+    .item-3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .offer-content img{
+        border-radius: 0.6rem;
+    }
+    
+    .item-1 h3, .item-2 h3, .item-3 h3{
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .item-1 a, .item-2 a, .item-3 a{
+        font-size: 1rem;
+    }
+    
+    /* Join */
+    .Bunch-container{
+        padding: 6rem 0 7rem;
+    }
+    
+    .form{
+        max-width: 80vw;
+    }
+    
+    /* Footer */
+    .footer-container{
+        padding:3.5rem 0.8rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.1rem;
+    }
+    
+    .column-1{
+        width: 100%;
+    }
+    .column-1 p{
+        font-size: 0.9rem;
+    }
+    
+    .footer-logo img{
+        width: 5rem;
+    }
+    
+    footer ul li{
+        margin:0 0 0.4rem;
+    }
+    
+    .column-4{
+        justify-content: left;
+    }
+}
 
