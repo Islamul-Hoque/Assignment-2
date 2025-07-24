@@ -250,7 +250,7 @@ nav ul li a{
     display: block;
     width: 100%;
 
-    filter: brightness(0.5);
+    filter: brightness(0.6);
     border-radius: 1rem;
     margin: 0;
     padding: 0;
@@ -274,6 +274,72 @@ nav ul li a{
 .item-3 a{
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+/* Join */
+.Colorful-Bunch{
+    max-width: 1280px;
+}
+
+.Colorful-Bunch-banner{
+    position: relative;
+}
+
+.Colorful-Bunch-banner::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.6); 
+    z-index: -1; 
+}
+
+.Bunch-container{
+    padding: 6rem 1rem;
+    text-align: center;
+    color: white;
+}
+.Bunch-container h2{
+    font-family: "Noto Serif", serif;
+    font-size: 1.7rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.form input{
+    border: none;
+    flex-grow: 1;
+    outline: none;
+
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.form input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form button {
+    background-color: #B8570E;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 
