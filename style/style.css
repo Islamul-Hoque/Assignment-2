@@ -1,0 +1,97 @@
+/* Universal selectors */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    /* box-sizing: border-box; */
+}
+
+
+/* Navbar */
+header{
+    max-width: 1280px;
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 0 1rem;
+    max-width: 100%;
+}
+
+nav img{
+    display: block;
+    max-width: 5.5rem;
+    height: auto;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.Home{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 700;
+}
+.Shop, .About-us{
+    color: #6E6E6E;
+}
+.Cart{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 1rem;
+    flex: 1;
+
+    margin: 5.5rem 0 2rem;
+    max-width: 1280px;
+}
+
+.banner-content{
+    width: 40%;
+}
+.banner h1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 2.6rem;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 0.5rem;
+    line-height: 4rem;
+}
+.banner h1 span{
+    color:#E95A08 ;
+    font-family: "Noto Serif", serif;
+}
+.banner p{
+    color: #6C6C6C;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5rem;
+    max-width: 45vw;
+}
+
+.hero{
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}
+.banner img{
+    display: block;
+    max-width: 100%;
+}
