@@ -190,6 +190,11 @@ nav ul li a{
     width: 12rem;
     right: -4.5rem;
     top: -5rem;
+    transition: transform 0.8s ease-out;
+}
+
+.mark:hover{
+    transform: scale(1.3) rotate(45deg) ;
 }
 
 .Plants-Lover-right h2{
